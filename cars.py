@@ -100,9 +100,9 @@ def main(argv):
     reports.generate(destination_file, title, additional_info, table_data)
 
     # Generate Email
-    # TODO: Change recipient
+    # TODO: Change sender and recipient
     sender = "automation@example.com"
-    recipient = "student-02-e83eddc447a8@example.com"
+    recipient = "student-00-9335bb776e64@example.com"
     subject = "Sales summary for last month"
     body = "\n".join(summary)
 
